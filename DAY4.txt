@@ -1,0 +1,203 @@
+{
+  "basics": {
+    "name": "Your first and last name",
+    "label": "",
+    "picture": "",
+    "email": "Your email address",
+    "phone": "A phone number, with any formatting you like. E.g. (555) 555-5555.",
+    "degree": "",
+    "website": "Your website URL",
+    "summary": "A one-sentence to one-paragraph overview text. Do not include any line-breaks.",
+    "location": {
+      "address": "Your street address or mailing address",
+      "postalCode": "Your postal code (ZIP in the U.S.)",
+      "city": "Your city",
+      "countryCode": "Your country (e.g. USA)",
+      "region": "Your region (state in the U.S.)"
+    },
+    "profiles": [
+      {
+        "network": "A social media or other profile that you would like to include (e.g. LinkedIn, Twitter)",
+        "username": "Your username on this network",
+        "url": "A URL to your user profile page"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Your employer name",
+      "position": "Your job title",
+      "website": "The URL for the employer's website",
+      "startDate": "Your start date, in YYYY-MM-DD format",
+      "endDate": "Your end date, in YYY-MM-DD format (leave blank for a current position)",
+      "summary": "A one-sentence to one-paragraph summary of this employer or position",
+      "highlights": [
+        "Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Your volunteer organization name",
+      "position": "Your job title",
+      "website": "The URL for the employer's website",
+      "startDate": "Your start date, in YYYY-MM-DD format",
+      "endDate": "Your end date, in YYY-MM-DD format (leave blank for a current position)",
+      "summary": "A one-sentence to one-paragraph summary of this employer or position",
+      "highlights": [
+        "Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Your school name",
+      "area": "Your area of study or degree earned",
+      "studyType": "",
+      "startDate": "Your start date, in YYYY-MM-DD format",
+      "endDate": "Your completion date, in YYYY-MM-DD format",
+      "gpa": "",
+      "courses": [
+        ""
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Your award title",
+      "date": "Your date, in YYYY-MM-DD format you received the award",
+      "awarder": "Your award given by",
+      "summary": "A one-sentence to one-paragraph overview of this award"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Your publication title",
+      "publisher": "Publisher name",
+      "releaseDate": "Publication date, in YYYY-MM-DD format",
+      "website": "The website URL for this publisher or book",
+      "summary": "A one-sentence to one-paragraph overview of this publication"      
+    }
+  ],
+  "skills": [
+    {
+      "name": "A category of job skills (e.g. 'Programming Languages')",
+      "level": "",
+      "keywords": [
+        "Keywords under this category (e.g. 'Java', 'C++', etc)"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Language name",
+      "fluency": "Your language fluency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "A category of interests (e.g. 'Sports')",
+      "keywords": [
+        "Keywords under this category (e.g. 'Cricket', 'Football', 'Golf')"
+      ]
+    }
+  ]
+}
+
+
+
+
+For the given JSON iterate over all for loops (for, for in, for of, for Each)
+
+
+
+var json = [{
+“id” : “viji”,
+“msg” : “For the given JSON iterate over all for loops (for, for in, for of, forEach)”,
+“task” : “task1”,
+“mail”: “vijivdya@gmail.com”
+},
+{
+“id” : “vdya”,
+“msg” : “For the given JSON iterate over all for loops (for, for in, for of, forEach)”,
+“task” : “task2”,
+“mail”: “vijivdya@gmail.com”
+}];
+//for loop
+for(var i = 0; i < json.length; i++) {
+var obj = json[i];
+
+console.log(obj.id);
+console.log(obj.msg);
+console.log(obj.task);
+console.log(obj.mail);
+
+}
+//for Each
+json.forEach(function(obj) { console.log(obj.msg); });
+
+//for In
+for (var key in json) {
+if (json.hasOwnProperty(key)) {
+console.log(json[key].id);
+//console.log(json[key].msg);
+
+}
+}
+//for Of
+let text = “”;
+for (let x of json[key].id) {
+text += x;
+}
+console.log(text);
+
+
+
+
+
+3.Read about the difference between window, screen and document in javascript
+
+Window
+
+The JavaScript window object sits at the top of the JavaScript Object hierarchy and represents the browser window. 
+The window object is supported by all browsers. 
+All global JavaScript objects , functions, and variables automatically become members of the window object. 
+The window is the first thing that gets loaded into the browser . 
+This window object has the majority of the properties like length, inner Width, inner Height, name, if it has been closed, its parents, and more.
+
+
+
+Document
+
+The Document interface represents any web page loaded in the browser and serves as an entry point into the web page’s content, which is the DOM tree. 
+When an HTML document is loaded into a web browser , it becomes a document object.
+It is the root node of the HTML document. 
+The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie, etc. HTML documents, served with the “text/html” content type, also implement the HTMLDocument interface, whereas XML and SVG documents implement the XMLDocument interface.
+
+
+
+Screen
+
+Screen is a small information object about physical screen dimensions .
+It can be used to display screen width, height, colorDepth, pixelDepth etc. 
+It is not mandatory to write window prefix with screen object. 
+It can be written without window prefix.
+
+Properties:
+screen.width
+screen.height
+screen.availWidth
+screen.availHeight
+screen.colorDepth
+screen.pixelDepth
+
+
+
+
+
+
+
+
+
+
+

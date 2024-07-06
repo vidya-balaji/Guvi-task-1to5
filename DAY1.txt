@@ -1,0 +1,88 @@
+HTTP1
+
+It works on the textual format.	
+There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.	
+It uses requests resource Inlining for use getting multiple pages
+It compresses data by itself.
+
+HTTP2
+
+It works on the binary protocol.
+It allows multiplexing so one TCP connection is required for multiple requests.
+It uses PUSH frame by server that collects all multiple pages ,
+It uses HPACK for data compression.
+
+
+
+2)about objects and its internal representation in Javascript
+
+Objects are important data types in javascript. 
+Objects are different than primitive datatypes ( number, string, boolean,).
+Primitive data types contain one value but Objects can hold many values in form of Key: value pair. 
+These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+objects are collections of key-value pairs, where keys are strings (or symbols) and values can be of any data type, 
+including other objects. 
+Objects are used to represent real-world entities, data structures, and more complex data types
+
+
+ Objects in JavaScript
+
+
+const person = {
+  name: "vdya",
+  age: 26,
+  email: "vidyavdya96@gmail.com"
+};
+
+Internal Representation of Objects
+
+Internal bio:
+{
+  name: "vdya",
+  age: 26,
+  email: "vidyavdya96@gmail.com"
+}
+
+
+
+Read about IP address, port, HTTP methods, MAC address        
+
+IP Address: An IP Address or Internet Protocol Address, is a unique number that identifies a device on the internet or a local network. 
+IP Addresses are typically assigned by an internet service provider.
+
+ IP Address serves two main functions:
+
+1. Network Interface Identification
+
+2. Location Addressing
+
+Port numbers are divided into three ranges.
+
+1.wellknown ports
+2.Registered ports
+3.Dynamic or private ports
+
+
+HTTP Methods:
+
+HTTP is a collection of request methods that specify what action to perform on a specific resource.
+
+HTTP methods are GET,POST,PUT,PATCH,DELETE. These methods correspond to create, read, update, delete operations.
+
+-> GET method is used to retrieve data from a web server by specifying parameters in the URL portion of the request.
+
+GET is one of the most popular HTTP request techniques.
+
+-> POST is used to send data to a server to create or update a resource. POST requests are never cached and do not remain in the browser history.
+
+-> PUT is used to replace all current representations of the target resources with request payload.
+
+-> DELETE is used to remove data from a database.
+
+ 
+
+ MAC Address: A MAC Address(Media Access Address)
+
+-> MAC Address are used in many IEEE 802 networking technologies, including WI-FI, Ethernet, Bluetooth. They are often found on a device’s network Interface card
+
+-> A device can have multiple MAC Addresses because each network interface requires a different address.
