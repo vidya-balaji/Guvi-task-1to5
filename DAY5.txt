@@ -1,7 +1,4 @@
-Write a “person” class to hold all the details
 
-
-Code:
 
 class Movie {
 
