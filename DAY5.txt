@@ -1,5 +1,4 @@
 
-
 class Movie {
 
 constructor(title, studio, rating = “PG”) {
@@ -20,7 +19,7 @@ return movies.filter(movie => movie.rating === “PG”);
 
 }
 
-const casinoRoyale = new Movie(“nanban”, “leo”, “PG-13”);
+const nanban = new Movie(“nanban”, “leo”, “PG-13”);
 
 console.log(“Title:”, nanban.title);
 
@@ -62,7 +61,7 @@ this.occupation = occupation;
 
 }
 
-const person = new Person(“John Doe”, 30, “Software Engineer”);
+const person = new Person(“vdya”, 27, “Software Engineer”);
 
 console.log(“Name:”, person.name);
 
