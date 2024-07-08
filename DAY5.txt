@@ -20,13 +20,13 @@ return movies.filter(movie => movie.rating === “PG”);
 
 }
 
-const casinoRoyale = new Movie(“Casino Royale”, “Eon Productions”, “PG-13”);
+const casinoRoyale = new Movie(“nanban”, “leo”, “PG-13”);
 
-console.log(“Title:”, casinoRoyale.title);
+console.log(“Title:”, nanban.title);
 
-console.log(“Studio:”, casinoRoyale.studio);
+console.log(“Studio:”, nanban.studio);
 
-console.log(“Rating:”, casinoRoyale.rating);
+console.log(“Rating:”, nanban.rating);
 
 const moviesArray = [
 
