@@ -92,4 +92,4 @@ let asianCountries5 = (country) => {
 return countries5.filter(x => x.indexOf(country) > -1);
 }
 
-console.log(asianCountries5(‘vdya’));
+console.log(asianCountries5);
