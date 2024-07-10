@@ -55,7 +55,7 @@ return country;
 
 console.log(asianCountries3);
 
-//// 4.Print the total population of countries using reduce function.
+ 4.Print the total population of countries using reduce function.
 
 const countries4 = [
 { name: ‘Nigeria’, continent: ‘Africa’, population:100123},
